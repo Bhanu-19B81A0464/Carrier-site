@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    padding:0;
+    font-famly:"sans-serif";
+
+}
+#navbar{
+    font-family:"Times New Roman";
+    background-color:black;
+font-weight:bold;
+    color:yellow;
+    margin:10;
+    padding-left:10px;
+    width:100%;
+}
+
+h1{
+    text-align:center;
+    color:green
+}
+
+.location{
+    color:red;
+}
+
+#banner{
+    width:30%;
+}
+
+#about {
+display:flex;
+max-width:800px;
+margin:0 auto;
+padding: 8px;
+}
+
+#description{
+    width:100%;
+    padding-right:8px;
+}
+#team{
+    width: 50%;
+}
+#team-image{
+    border-radius:5px;
+    width:100%;
+}
+
+#jobs{
+   max-width:800px;
+    margin:0 auto;
+    padding:0 8px;
+}
+h3{
+    margin-bottom:4px;
+    margin-top:0;
+}
+.apply{
+    float:right;
+    margin-left:50px;
+    
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application-form div{
+    margin: 16px;
+
+}
+#application-form label{
+    font-weight: 600;
+}
+
+#application-form input, select,textarea{
+    padding : 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.form-group textarea{
+    margin:0;
+    font-family: 'Roboto' "sans-serif";
+}
+
+.form-group input[type="submit"]{
+ background-color:blue;
+ color:white;
+ font-weight:500;
+  
+}
+
+#footer {
+   
+   background-color:grey;
+   font-size:14px;
+}
+
+#footer-links {
+    display:flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-links li {
+   margin-left:10px;
+}
+
+#cp{
+    background-color:white;
+    color:green;
+}
+.copyright{
+    color:grey;
+}
+
+#jobs-table {
+    width:100%;
+    border: 1px solid grey;
+    border-collapse:collapse;
+background-color:skyblue;
+text-align:center;
+}
+
+.jobs-header-row th{
+    border:1px solid grey;
+    padding: 8px;
+    background-color: aliceblue;
+  text-align:center;
+
+    
+}
+
+.jobs-data-row td{
+    border:1 px solid grey;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd)
+{
+    background-color:lightgreen;
+}

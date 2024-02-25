@@ -1,0 +1,219 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" ,initial-scale=1.0">
+
+    <title>Job Alerts</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <h2 id="navbar">Job Alert </h2>
+    </div>
+    <img id="banner" src="C:\Users\gunji\Downloads\alert.jpg" alt="Banner" width="50px" height="200px">
+    <h1 style="text-align: center; color: green;">
+        About jobs
+    </h1>
+
+    <div id="about">
+        <div id="description">
+            <p style width-left="70%">
+                Currently, the job market is dynamic and diverse, offering opportunities across various industries
+                and sectors. With the rise of technology, fields such as software development, data analysis, and
+                cybersecurity continue to experience high demand. Additionally, traditional sectors like healthcare,
+                education, and finance remain stable pillars of employment. However, remote and freelance work options
+                are also increasingly popular, providing flexibility and opening up new avenues for employment.
+
+            </p>
+
+            <p>
+                we also offer 2 industry-focused bootcamps:
+            <ol>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        Full Stack Developer
+                    </a>
+                </li>
+                <li>
+                    <a  href="https://www.w3schools.com/html/default.asp" target="_blank">
+                        Backend Developer
+                    </a>
+                </li>
+            </ol>
+
+            </p>
+        </div>
+
+        <div id="team">
+            <img id="team-image" src="C:\Users\gunji\Downloads\jobs.jpg" alt="software" width="800" height="200">
+        </div>
+    </div>
+    <!--<h2 style="text-align:center">JOb Opportunities</h2>
+    <div id="jobs">
+        <div>
+            <a href="mailto:gunjibhanu07@gmail.com?subject=data analysis" class="apply" traget="blank" >Apply</a>
+            <h3 class="job-role">Data Analysis</h3>
+            <div class="location">Hyderabad,india</div>
+        </div>
+       
+        <div>
+            <a href="mailto:gunjibhanu07@gmail.com?subject=frontend" class="apply" target="_blank">Apply</a>
+            <h3 class="job-role">Frontend Developer</h3>
+            <div class="location">bangalore,india</div>
+         </div>
+
+        <div>
+            <a href="mailto:gunjibhanu07@gmail.com?subject=backend" class="apply" target="_blank">Apply</a>
+            <h3 class="job-role">Backend Developer</h3>
+           <div class="location">delhi,india</div>
+        </div>
+    </div>
+-->
+<h2 style="text-align:center">JOb Opportunities</h2>
+<div id="jobs">
+    <table border="1" id="jobs-table">
+        <tr class="jobs-header-row">
+            <th rowspan="2">Job Title</th>
+            <th colspan="2">Location</th>
+            <th rowsan="2">Salary</th>
+            <th rowspan="2">Posted On</th>
+        </tr>
+        <tr class="jobs-header-row">
+            <th>City</th>
+            <th>Country</th>
+
+        </tr>
+        <tr clas="jobs-data-row">
+            <td>Fronted Developer</td>
+            <td>Bengalur</td>
+            <td>india</td>
+            <td>1200000</td>
+            <td>Mar 3, 2023</td>
+        </tr>
+        <tr clas="jobs-data-row">
+            <td>Fullstack Developer</td>
+            <td>Delhi</td>
+               <td>India</td>
+            <td>150000</td>
+            <td>feb 1, 2023</td>
+        </tr>
+        <tr clas="jobs-data-row">
+            <td>Data scientist</td>
+            <td>Hyderabad</td>
+              <td> India</td>
+            <td>750000</td>
+            <td>jan 1, 2023</td>
+        </tr>
+        <tr clas="jobs-data-row">
+            <td>Data engineer</td>
+            <td>Chennai</td>
+            <td>India</td>
+            <td>500000</td>
+            <td> april 3, 2023</td>
+        </tr>
+    </table>
+</div>
+
+<!--sample form-->
+
+    <div id="application">
+    <h2 style="text-align:center">Submit Your Application</h2>
+
+    <form id="application-form">
+        <div class="form-group">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="Full Name" required placeholder="Bhanu Prakash">
+        </div>
+       
+        <div class="form-group">
+            <label for="email" >Email</label>label><br></label>
+            <input type="text" id="email" name="Email" required placeholder="gunjibhanu07@gmail.com">
+        </div> 
+        
+        <div class="form-group">
+            <label for="phone">phone</label><br>
+            <input type="tel" id="phone" name="phone" required placeholder="8639887965">
+        </div>
+
+        <div class="form-group">
+            <label for="dob">dob</label><br>
+            <input type="date" id="dob" name="dob" required >
+        </div>
+        
+        <div class="form-group">
+            <label for="position">Position Applied for</label>
+            <select id="position" name="position Applied" required>
+                <option value=" ">Select position</option>
+                <option value="Fronted Dev">Fronted Developer</option>
+                <option value="data analysis" >data Analysis</option>
+                <option value="ML Engg">ML Engineer</option>
+                <option value="Backend Dev">Backend Developer</option>
+            </select>
+            
+        </div>
+
+        <div class="form-group">
+            <label for="resume">Upload Resume</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required >
+        </div>
+
+        <div class="form-group">
+            <label for="coverletter">Coverletter</label><br>
+            <textarea id="coverletter"  name="coverletter" rows="5"   placeholder="Explain what makes you suitable for the job.." ></textarea>
+        </div>
+
+        <div >
+            <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the terms and conditions
+            </label>
+        </div>
+        
+        <div class="form-group">
+            <input type="submit" value="Submit Application">
+        </div>
+    </form>
+    
+</div>
+
+
+
+
+
+
+    <div id="footer">
+        
+        <ul id="footer-links">
+            <li>
+                <a href="https://www.javatpoint.com/" >
+                    Courses
+                </a>
+            </li>
+    
+            <li>
+                <a href="https://css-tricks.com/" >
+                    programs
+                </a>
+            </li>
+        
+
+            <li>
+                <a href="https://chat.openai.com/c/35a60ad2-9c30-41a8-9588-1288eb0a5ac9" >
+                    chatgpt
+                </a>
+            </li>
+         
+        </ul>
+
+        <h1 id="cp">
+            &#169 2001 Jobs alert
+        </h1>
+    </div>
+</body>
+
+</html>
